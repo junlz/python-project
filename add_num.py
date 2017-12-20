@@ -7,6 +7,7 @@
 #4、使用对象的text方法在画布上写字
 #5、保存图片
 #6、使用到的库 Image ImageFont ImageDraw
+#思考问题：怎样在画布中添加汉字
 from PIL import Image , ImageFont, ImageDraw
 def add_num(img):
     draw = ImageDraw.Draw(img)
@@ -19,4 +20,6 @@ def add_num(img):
 if __name__ == '__main__':
     image = Image.open('./img/mei.jpg')
     add_num(image)
+
+
 
